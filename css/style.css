@@ -91,6 +91,16 @@ ul {
     cursor: pointer;
     border: none;
     border-radius: 30px;
+    transition: background-color .3s ease-in-out;
+}
+.btn:hover {
+    background-color: #0a8a63;
+}
+.btn:focus {
+    outline: 2px solid #18795c;
+}
+.btn:active {
+    background-color: #9becd4;
 }
 
 .container {
@@ -160,6 +170,26 @@ ul {
     display: flex;
     gap: 16px;
 }
+
+.footer__socilas-link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    transition: background-color .3s ease-in-out;
+}
+.footer__socilas-link:hover {
+    background-color: #0a8a63;
+}
+.footer__socilas-link:focus {
+    outline: 2px solid #18795c;
+}
+.footer__socilas-link:active {
+    background-color: #9becd4;
+}
+
+
+
 
 @media (max-width: 945px) {
     body {
